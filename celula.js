@@ -50,7 +50,7 @@ export const game = (board) => {
     }
   }
 
-  console.log(newBoard);
+  console.log(newBoard); 
   return newBoard;
 };
 
