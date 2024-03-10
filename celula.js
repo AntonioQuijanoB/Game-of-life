@@ -24,6 +24,7 @@ export const aliveCells = (board, x, y) => {
       }
     }
   }
+
   return arroundCounter;
 };
 
@@ -50,7 +51,7 @@ export const game = (board) => {
     }
   }
 
-  console.log(newBoard); 
+  console.log(newBoard);
   return newBoard;
 };
 
