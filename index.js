@@ -1,4 +1,5 @@
-import { game, currentBoard } from './functions.js';
+/* eslint-disable no-import-assign */
+import { game, currentBoard } from './celula.js';
 setInterval(() => {
   currentBoard = game(currentBoard);
 }, 1000);
